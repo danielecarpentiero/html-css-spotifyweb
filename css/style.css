@@ -1,0 +1,15 @@
+/* RULES */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  list-style-type: none;
+  text-decoration: none;
+  font-family: "Montserrat", sans-serif;
+}
+
+@import "_partials/Large.css";
+@import "_partials/Medium.css";
+@import "_partials/Small.css";
+
+/* /RULES */
