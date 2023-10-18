@@ -10,20 +10,29 @@
       rel="stylesheet"
     />
     <link rel="stylesheet" href="css/style.css" />
+    <link rel="stylesheet" href="css/_partials/Small.css" />
+    <link rel="stylesheet" href="css/_partials/Medium.css" />
+    <link rel="stylesheet" href="css/_partials/Small.css" />
     <title>Spotify</title>
   </head>
   <body>
     <header>
       <nav class="flex">
-        <img src="img/logo-small.svg" alt="logoSmall" />
-        <img class="none" src="img/logo.svg" alt="logo" />
-        <div class="home">
-          <img src="img/home.svg" alt="" />
-          <div>la tua libreria</div>
-          <img src="img/search.svg" alt="" />
-          <img src="img/libreria.svg" alt="" />
+        <img class="logo-small" src="img/logo-small.svg" alt="logoSmall" />
+        <img class="logo only-tablet" src="img/logo.svg" alt="logo" />
+        <div class="home-container flex">
+          <div>
+            <img src="img/home.svg" alt="" />
+            <img src="img/search.svg" alt="" />
+            <img src="img/libreria.svg" alt="" />
+          </div>
+          <div class="flex">
+            <span class="only-tablet">Home</span>
+            <span class="only-tablet">Cerca</span
+            ><span class="only-tablet">La tua libreria</span>
+          </div>
         </div>
-        <div class="playlist none">
+        <div class="playlist only-tablet">
           <h4>PLAYLIST</h4>
         </div>
         <div class="user"></div>

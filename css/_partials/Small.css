@@ -1,0 +1,23 @@
+@media screen and (min-width: 480px) {
+  .only-tablet {
+    display: block;
+  }
+
+  .logo {
+    padding: 20px;
+  }
+
+  header nav .logo-small {
+    display: none;
+  }
+
+  header nav {
+    min-width: 230px;
+  }
+
+  .home-container {
+    justify-content: flex-start;
+    align-items: center;
+    padding: 20px 0;
+  }
+}
