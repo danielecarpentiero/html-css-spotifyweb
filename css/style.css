@@ -8,6 +8,19 @@
   font-family: "Montserrat", sans-serif;
 }
 
+body {
+  height: 100vh;
+}
+
+footer {
+  height: 90px;
+}
+
+header,
+main {
+  height: 100% - 90px;
+}
+
 /* /RULES */
 
 /* utilities */
@@ -55,16 +68,59 @@ nav span {
 .home-container {
   justify-content: center;
   padding-top: 0;
-  opacity: 0.5;
 }
 
 .index {
   flex-direction: column;
   justify-content: space-between;
   height: 120px;
+  color: #a3a3a3;
 }
 
 .logo-small {
   width: 50px;
+}
+
+.user {
+  max-width: 200px;
+  margin-top: auto;
+
+  padding-left: 20px;
+  flex-direction: column;
+  color: white;
+}
+
+.user .top,
+.user hr {
+  opacity: 0.6;
+}
+
+.user .top {
+  padding: 10px;
+}
+
+.user .bottom {
+  padding: 10px 0;
+}
+
+.bottom {
+  align-items: center;
+  justify-content: flex-start;
+}
+
+.user span {
+  padding-left: 10px;
+}
+
+.user .bottom span {
+  font-size: 1.25rem;
+}
+
+.bottom img {
+  width: 30px;
+  height: 30px;
+  object-fit: contain;
+  background-color: #808080;
+  border-radius: 50%;
 }
 /* /Header */

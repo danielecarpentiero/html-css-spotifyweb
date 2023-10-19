@@ -19,6 +19,12 @@
     justify-content: flex-start;
     align-items: center;
     padding: 20px 0;
+    color: #a3a3a3;
+  }
+
+  .home-container div:first-of-type img:first-of-type {
+    border-left: 5px solid #adff2f;
+    opacity: 1;
   }
 
   .playlist h3 {
@@ -56,4 +62,8 @@
   .playlist div {
     align-items: center;
   }
+
+  /*  .user {
+    align-items: center;
+  } */
 }
