@@ -10,17 +10,17 @@
 
 body {
   height: 100vh;
+  width: 100vw;
 }
 
 footer {
   height: 90px;
 }
 
-header,
 main {
-  height: 100% - 90px;
+  height: calc(100% - 90px);
+  width: calc(100% - 50px);
 }
-
 /* /RULES */
 
 /* utilities */
@@ -45,13 +45,16 @@ span {
 /* Header */
 
 header {
+  max-width: 50px;
   position: fixed;
-  height: 100%;
+  top: 0;
+  left: 0;
+
+  height: calc(100% - 90px);
   font-weight: 700;
 }
 
 header nav {
-  max-width: 50px;
   background-color: black;
   flex-direction: column;
   height: 100%;
