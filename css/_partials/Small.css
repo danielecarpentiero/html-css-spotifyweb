@@ -3,6 +3,10 @@
     display: block;
   }
 
+  main {
+    padding-left: 230px;
+  }
+
   .logo {
     padding: 20px;
   }
@@ -61,8 +65,4 @@
   .playlist div {
     align-items: center;
   }
-
-  /*  .user {
-    align-items: center;
-  } */
 }

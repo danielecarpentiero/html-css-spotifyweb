@@ -19,8 +19,8 @@ footer {
 
 main {
   height: calc(100% - 90px);
-  width: calc(100% - 50px);
 }
+
 /* /RULES */
 
 /* utilities */
@@ -47,9 +47,6 @@ span {
 header {
   max-width: 50px;
   position: fixed;
-  top: 0;
-  left: 0;
-
   height: calc(100% - 90px);
   font-weight: 700;
 }
@@ -87,8 +84,7 @@ nav span {
 .user {
   max-width: 200px;
   margin-top: auto;
-
-  padding-left: 20px;
+  padding-left: 10px;
   flex-direction: column;
   color: white;
 }
@@ -127,3 +123,47 @@ nav span {
   border-radius: 50%;
 }
 /* /Header */
+/* Main */
+main {
+  background-color: #141922;
+}
+
+.upgrade {
+  height: 90px;
+  justify-content: flex-end;
+  align-items: center;
+  background-color: black;
+  opacity: 0.5;
+  position: fixed;
+  z-index: 9;
+  top: 0;
+  right: 0;
+  left: 0;
+}
+
+#upgrade {
+  color: white;
+  font-weight: 700;
+  padding: 15px 40px;
+  border: 2px solid white;
+  border-radius: 25px;
+  margin-right: 5px;
+  opacity: 1;
+}
+
+.megacontainer {
+  padding-top: 110px;
+}
+
+.navline {
+  width: calc((100% -30px) / 4);
+  color: #696b70;
+  font-weight: 700;
+}
+
+.navline ul {
+  justify-content: center;
+  gap: 10px;
+}
+
+/* /main */
