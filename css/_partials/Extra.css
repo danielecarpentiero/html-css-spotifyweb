@@ -1,0 +1,9 @@
+@media screen and (min-width: 1200px) {
+  .grid .box {
+    max-width: 100%;
+  }
+  .container .box h4,
+  .container .box h3 {
+    font-size: 100%;
+  }
+}

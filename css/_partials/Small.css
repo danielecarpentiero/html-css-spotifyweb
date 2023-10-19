@@ -65,4 +65,9 @@
   .playlist div {
     align-items: center;
   }
+  /* /Header */
+  /* Main */
+  .grid .box {
+    max-width: 138px;
+  }
 }

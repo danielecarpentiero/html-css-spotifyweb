@@ -126,6 +126,7 @@ nav span {
 /* Main */
 main {
   background-color: #141922;
+  padding-left: 50px;
 }
 
 .upgrade {
@@ -152,16 +153,73 @@ main {
 }
 
 .megacontainer {
-  padding-top: 110px;
+  padding-top: 100px;
+  overflow-y: auto;
 }
 
 .navline {
-  flex-wrap: wrap;
   width: 100%;
   color: #696b70;
   font-weight: 700;
   justify-content: center;
+}
+
+.navline ul {
+  flex-wrap: wrap;
+  justify-content: center;
+  line-height: 40px;
+}
+
+.navline ul li {
+  margin: 10px;
+}
+
+.container {
+  margin: 30px;
+}
+
+.container h2,
+.container .box h3 {
+  color: white;
+}
+
+.container .box h4 {
+  color: #696b70;
+}
+
+.container .box h4,
+.container .box h3 {
+  text-align: center;
+  font-size: 100%;
+}
+
+.grid {
+  padding-top: 30px;
   gap: 10px;
+  flex-wrap: wrap;
+}
+
+.grid .box {
+  max-width: 210px;
+}
+
+.grid .box img,
+.grid .box h3 {
+  margin-bottom: 10px;
+}
+
+.grid .box img {
+  max-width: 100%;
+}
+
+.grid .box h4 {
+  color: #696b70;
 }
 
 /* /main */
+/* footer */
+footer {
+  position: fixed;
+  z-index: 99;
+}
+/* /footer */
