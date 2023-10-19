@@ -156,12 +156,10 @@ main {
 }
 
 .navline {
-  width: calc((100% -30px) / 4);
+  flex-wrap: wrap;
+  width: 100%;
   color: #696b70;
   font-weight: 700;
-}
-
-.navline ul {
   justify-content: center;
   gap: 10px;
 }
