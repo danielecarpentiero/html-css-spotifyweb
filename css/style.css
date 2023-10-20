@@ -130,6 +130,7 @@ nav span {
 main {
   background-color: #141922;
   padding-left: 50px;
+  overflow-y: auto;
 }
 
 .upgrade {
@@ -143,12 +144,13 @@ main {
   top: 0;
   right: 0;
   left: 50px;
+  padding-right: 10px;
 }
 
 #upgrade {
   color: white;
   font-weight: 700;
-  padding: 15px 40px;
+  padding: 15px;
   border: 2px solid white;
   border-radius: 25px;
   margin-right: 5px;
@@ -178,15 +180,20 @@ main {
 }
 
 .container {
-  margin: 30px;
+  margin: 40px;
 }
 
 .container h2,
-.container .box h3 {
+.container .box h3,
+footer h4,
+footer .bottom h5,
+footer .top,
+.section:last-of-type h4 {
   color: white;
 }
 
-.container .box h4 {
+.container .box h4,
+.suggestions {
   color: #696b70;
 }
 
@@ -198,8 +205,12 @@ main {
 
 .grid {
   padding-top: 30px;
-  gap: 10px;
+  gap: 20px;
   flex-wrap: wrap;
+}
+
+.container:last-of-type img {
+  border-radius: 50%;
 }
 
 .grid .box {
@@ -215,14 +226,116 @@ main {
   max-width: 100%;
 }
 
-.grid .box h4 {
+.grid .box h4,
+footer h5,
+.icons {
   color: #696b70;
+}
+
+.suggestions {
+  margin: 10px 0;
 }
 
 /* /main */
 /* footer */
 footer {
+  background-color: #282828;
   position: fixed;
   z-index: 99;
+  max-height: 90px;
+  width: 100%;
 }
+
+.footer-container {
+  padding: 10px;
+  align-items: center;
+  justify-content: space-between;
+  height: 100%;
+}
+
+.footer-container .section:first-of-type div:first-of-type {
+  max-width: 10%;
+}
+
+.section:first-of-type div:nth-of-type(2) {
+  flex-direction: column;
+  justify-content: center;
+  margin-left: 10px;
+}
+
+.section {
+  height: 100%;
+  align-items: center;
+}
+
+.section:first-of-type {
+  max-width: 450px;
+}
+
+.section div:first-of-type img {
+  max-width: 100%;
+}
+
+.section:first-of-type,
+.section:last-of-type {
+  flex-shrink: 1;
+}
+
+.section:nth-of-type(2) {
+  flex-grow: 1;
+  flex-direction: column;
+}
+
+footer .top.flex {
+  padding-bottom: 15px;
+}
+
+.icons {
+  flex-direction: column;
+}
+
+.icons {
+  align-items: center;
+  letter-spacing: 20px;
+  padding-left: 40px;
+}
+
+footer .top {
+  letter-spacing: 30px;
+  font-size: 1.5rem;
+  justify-content: center;
+}
+
+.progress-bar {
+  width: 75%;
+  height: 5px;
+  background-color: #5a5a5a;
+  border-radius: 50px;
+  margin: 0 10px;
+}
+
+.section:last-of-type .progress-bar {
+  width: 50%;
+}
+
+.bottom {
+  width: 100%;
+}
+
+.undone {
+  background-color: #c1c1c1;
+  height: 100%;
+  width: 9%;
+  border-radius: 50px;
+}
+
+.section:last-of-type {
+  width: calc(100% / 4);
+  justify-content: flex-end;
+}
+
+.section:last-of-type h4 {
+  letter-spacing: 5px;
+}
+
 /* /footer */

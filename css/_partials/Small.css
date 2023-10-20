@@ -74,4 +74,10 @@
   .grid .box {
     max-width: calc(100 / 2);
   }
+  /* /main */
+  /* Footer */
+  .icons {
+    flex-direction: row;
+  }
+  /* /footer */
 }
