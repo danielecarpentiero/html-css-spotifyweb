@@ -68,6 +68,6 @@
   /* /Header */
   /* Main */
   .grid .box {
-    max-width: 138px;
+    max-width: calc(100 / 2);
   }
 }

@@ -1,6 +1,6 @@
 @media screen and (min-width: 992px) {
   .grid .box {
-    max-width: 108px;
+    max-width: calc((100% / 6) - 40px);
   }
   .container .box h4,
   .container .box h3 {

@@ -200,7 +200,7 @@ main {
 }
 
 .grid .box {
-  max-width: 210px;
+  max-width: calc((100% / 2) - 10px);
 }
 
 .grid .box img,
