@@ -1,4 +1,7 @@
 @media screen and (min-width: 992px) {
+  .upgrade {
+    left: 230px;
+  }
   .grid .box {
     max-width: calc((100% / 6) - 10px);
   }
